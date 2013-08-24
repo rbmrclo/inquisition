@@ -1,9 +1,66 @@
-body {
+html {
   background: url('../images/background.jpg') 100% 100% no-repeat;
-  background-position: center 4px;
+  background-position: center 0px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+#header-text {
+}
+
+#header-text h1 {
+  font-size: 45pt;
+  font-family: 'Georgia', serif;
+  color: white;
+  padding-left: 15px;
+}
+
+#inq-logo img {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#subheader-text p {
+  font-family: 'Georgia', serif;
+  color: white;
+  font-size: 14pt;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+#subheader-text a {
+  color: rgba(200,200,200,1);
+}
+
+#content {
+  margin-top: 3em;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 650px;
+}
+
+.v-spacer20 {
+  height: 20px;
+}
+
+.v-spacer40 {
+  height: 40px;
+}
+
+#social-links {
+  padding-left: 15px;
+}
+
+#social-links i {
+  color: white;
+  margin-right: 20px;
+  float: left;
+}
+
+#social-links a {
+  text-decoration: none;
 }
