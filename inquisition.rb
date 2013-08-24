@@ -7,5 +7,5 @@ require 'haml'
 Bundler.require(:default, :test)
 
 get '/' do
-  "Hello world"
+  haml :index
 end
