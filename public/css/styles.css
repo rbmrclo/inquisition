@@ -15,30 +15,31 @@ html {
   font-size: 45pt;
   font-family: 'Georgia', serif;
   color: white;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 #inq-logo img {
   position: relative;
   margin-bottom: 40px;
+  margin-left: -15px;
 }
 
 #subheader-text p {
   font-family: 'Georgia', serif;
   color: white;
   font-size: 14pt;
-  padding-left: 15px;
+  padding-left: 0px;
   margin-top: 10px;
 }
 
 #subheader-text a {
-  color: rgba(200,200,200,1);
+  color: rgba(210,207,207,1);
 }
 
 #content {
   margin-top: 3em;
   max-width: 850px;
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
   min-height: 650px;
 }
@@ -52,13 +53,14 @@ html {
 }
 
 #social-links {
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 #social-links i {
   color: white;
   margin-right: 20px;
   float: left;
+  font-size: 24px;
 }
 
 #social-links a {
