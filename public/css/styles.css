@@ -1,22 +1,22 @@
 html {
-  background: url('../images/background.jpg') 100% 100% no-repeat;
-  background-position: center 0px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  /* background: url('../images/background.jpg') 100% 100% no-repeat; */
+  /* background-position: center 0px; */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  /* -moz-background-size: cover; */
+  /* -webkit-background-size: cover; */
+  /* background-size: cover; */
 }
 
 #header-text {
 }
 
-#header-text h1 {
-  font-size: 45pt;
-  font-family: 'Georgia', serif;
-  color: white;
-  padding-left: 0px;
-}
+/* #header-text h1 { */
+/*   font-size: 45pt; */
+/*   font-family: 'Georgia', serif; */
+/*   color: white; */
+/*   padding-left: 0px; */
+/* } */
 
 #inq-logo img {
   position: relative;
@@ -65,4 +65,99 @@ html {
 
 #social-links a {
   text-decoration: none;
+}
+
+.page {
+  color: #000;
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  text-align: center;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 40em;
+  max-width: 100%;
+  height: 36em;
+  z-index: 50;
+}
+
+.page h1 {
+  font-size: 110px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 40px 0;
+}
+
+.page h2 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin: 1em 0;
+  margin-bottom: .2em;
+}
+
+.page p {
+  margin: 1em 0;
+  margin-top: 60px;
+}
+
+.page small {
+  letter-spacing: 1px;
+}
+
+.page a {
+  display: inline-block;
+  border: 2px solid #000;
+  color: #000;
+  padding: 1em 1.25em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 140px;
+  line-height: 1.3em;
+}
+
+.page a.contact-link {
+  margin-left: 20px;
+  border-color: transparent;
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+
+  transition: background .3s;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+}
+
+.page a.contact-link:hover, .page a.facebook-link:hover {
+  transition: background .3s;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  border: 2px solid #000;
+  background: white;
+  color: black;
+}
+
+a.footer-link {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  position: fixed;
+  bottom: 75px;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+  font-size: 16px;
+}
+
+a.footer-link img {
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
 }
