@@ -18,6 +18,12 @@ html {
 /*   padding-left: 0px; */
 /* } */
 
+#inq-logo-v2 {
+  background: url('../images/inq-logo-v2.png') no-repeat;
+  height: 150px;
+  width: 447px;
+}
+
 #inq-logo img {
   position: relative;
   margin-bottom: 40px;
