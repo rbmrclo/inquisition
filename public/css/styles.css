@@ -22,6 +22,8 @@ html {
   background: url('../images/inq-logo-v2.png') no-repeat;
   height: 150px;
   width: 447px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #inq-logo img {
